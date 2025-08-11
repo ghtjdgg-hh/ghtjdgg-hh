@@ -1,8 +1,8 @@
 <!-- 프로필 상단 배너 -->
 ![header](https://capsule-render.vercel.app/api?type=waving&color=0:2D4470,100:00C896&height=200&section=header&text=Han%20Hosung&fontSize=40&fontColor=ffffff)
 
-# 👋 안녕하세요, 한호성입니다!
-> **Spring 백엔드 & 풀스택 개발자 지망생**  
+# 👋 안녕하세요
+> **풀스택 개발자 한호성입니다!**  
 > 꾸준함과 성실함으로 문제를 해결하며, 완성도 높은 서비스를 구현합니다.
 
 ---
