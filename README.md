@@ -1,19 +1,3 @@
-<!-- ──────────────────────────────────────────────────────────────
-  🔧 프로필 변수 (여기만 바꾸면 됩니다)
-  USERNAME: ghtjdgg-hh (그대로 사용)
-  EMAIL: gksghtjdgg@naver.com
-  RESUME_URL: 이력서(노션/구글드라이브/PDF) 링크
-  ✔ 프로젝트 레포가 없다면 일단 비워두고 나중에 채워도 OK
-──────────────────────────────────────────────────────────────── -->
-<!-- USERNAME=ghtjdgg-hh -->
-<!-- EMAIL=you@example.com -->
-<!-- RESUME_URL=https://your-resume-link -->
-<!-- REPO_INSURANCE=https://github.com/ghtjdgg-hh/kd-insurance-admin -->
-<!-- REPO_GROUPWARE=https://github.com/ghtjdgg-hh/hsGroupware -->
-<!-- REPO_SOCCER=https://github.com/ghtjdgg-hh/hosungfc -->
-<!-- REPO_BIKE=https://github.com/ghtjdgg-hh/ddareungi-clone -->
-<!-- REPO_NASA=https://github.com/ghtjdgg-hh/nasa-space-app -->
-
 <!-- 헤더 배너 -->
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2D4470,100:00C896&height=220&section=header&text=Han%20Hosung&fontSize=44&fontColor=ffffff&animation=twinkling" alt="header" />
@@ -26,9 +10,9 @@
 </p>
 
 <p align="center">
-  <a href="mailto:EMAIL"><img alt="Email" src="https://img.shields.io/badge/Email-Contact-2D4470?style=for-the-badge"/></a>
-  <a href="RESUME_URL"><img alt="Resume" src="https://img.shields.io/badge/Resume-View-00C896?style=for-the-badge"/></a>
-  <a href="https://github.com/USERNAME"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-@USERNAME-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
+  <a href="mailto:gksghtjdgg@naver.com"><img alt="Email" src="https://img.shields.io/badge/Email-Contact-2D4470?style=for-the-badge"/></a>
+  <a href="#"><img alt="Resume" src="https://img.shields.io/badge/Resume-View-00C896?style=for-the-badge"/></a>
+  <a href="https://github.com/ghtjdgg-hh"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-@ghtjdgg--hh-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
 </p>
 
 ---
@@ -58,17 +42,19 @@
   고객·피보험자·계약·공지 **CRUD**, 검색/페이징, 대시보드 위젯.  
   계약 등록: 고객 팝업 → 피보험자 자동 로딩 → 상품/기간/상태 저장.  
   Spring MVC + MyBatis, Spring Security(로그인/권한), HikariCP.  
-  Oracle 스키마(customer/insured_person/contract/notice, 시퀀스+트리거). 👉 레포: [바로가기](REPO_INSURANCE)
+  Oracle 스키마(customer/insured_person/contract/notice, 시퀀스+트리거).  
+  👉 레포: [바로가기](https://github.com/ghtjdgg-hh/kd-insurance-admin)
 
 - **축구팀 관리 & AI 전술 추천 – HosungFC**  
   선수 관리(등록/검색/페이징), 포메이션 저장/수정/삭제.  
   실제 필드 배경 **드래그&드롭 배치**, 포지션 라벨 표기.  
   Kakao Map 라이벌 분석: 로고 마커·지역 필터·모달(전적/전술/승률).  
-  AI 전술 추천: `player_analysis` 기반 규칙/경량모델. 👉 레포: [바로가기](REPO_SOCCER)
+  AI 전술 추천: `player_analysis` 기반 규칙/경량모델.  
+  👉 레포: [바로가기](https://github.com/ghtjdgg-hh/hosungfc)
 
 - **따릉이(서울시 공공자전거) 클론코딩**  
   실서비스 레이아웃 **픽셀 단위** 재현, Bootstrap Grid.  
   상단 3개 버튼·아코디언·헤더/푸터·WA 인증 아이콘 구성.  
   시맨틱 HTML, 포커스 이동/명도 대비 등 **접근성 고려**.  
-  메뉴: 메인·이용안내(아코디언)·안전사항(헬멧/교통법규/연령/야간/사고). 👉 레포: [바로가기](REPO_BIKE)
-
+  메뉴: 메인·이용안내(아코디언)·안전사항(헬멧/교통법규/연령/야간/사고).  
+  👉 레포: [바로가기](https://github.com/ghtjdgg-hh/ddareungi-clone)
