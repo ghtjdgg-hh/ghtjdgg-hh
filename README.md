@@ -5,7 +5,7 @@
 
 <h2 align="center">안녕하세요, 신입 개발자 한호성입니다 👋</h2>
 <p align="center">
-  <b>Java & Spring 백엔드</b> · <b>JSP · Oracle 실전형 풀스택</b> · 자동화 애호가 🤖<br/>
+  <b>Java & Spring 백엔드</b> · <b>JSP · Oracle 실전형 풀스택</b> <br/>
   물류·전기 현장에서 느낀 비효율을 <b>시스템과 자동화</b>로 해결합니다.
 </p>
 
@@ -21,15 +21,8 @@
 
 ## 🚀 한 줄 소개
 비효율을 **자동화**로 바꾸는 Java/Spring 백엔드 개발자입니다.  
-보험사 관리자·축구팀 관리 등 **실전 프로젝트**를 끝까지 구현했고,  
+보험사 관리자·축구팀 관리 등 **실전 프로젝트**를 구현했고,  
 **Spring Legacy + MyBatis + Oracle** 기반을 안정적으로 다룹니다.
-
----
-
-## 🧭 요약 (About Me)
-- 현장 업무 경험을 기반으로 **표준화·자동화(RPA/배치)**에 강한 관심이 있습니다.  
-- **JSP·JSTL·EL + Bootstrap**로 빠르게 관리 UI를 만들고, **REST API**로 기능을 분리합니다.  
-- Git으로 작업을 세분화해 기록하고, 오류는 **로그부터 파고드는 스타일**입니다.  
 
 ---
 
@@ -56,11 +49,12 @@
 
 ---
 
-### 2) 축구팀 관리 & AI 전술 추천 — HosungFC
-- 선수 관리(등록/검색/페이징), **포메이션 드래그&드롭** 배치/저장/수정  
-- Kakao Map 라이벌 분석: 로고 마커·지역 필터·모달(전적/전술/승률)  
-- AI 전술 추천: `player_analysis` 기반 규칙 + 경량 모델 실험  
-- DB: `player / formation / formation_position / rival_club / region / player_analysis / player_tactic_recommendation`  
+- 선수 관리(등록/검색/페이징)와 **포메이션 드래그&드롭** 배치/저장/수정  
+- **Kakao Map 라이벌 분석**: 로고 마커·지역 필터·모달(전적/전술/예상 승률)  
+- **AI 전술 추천(🤗 Hugging Face + 규칙 엔진)**: `player_analysis`(스타일/장단점/추천 전술) + `player_tactic_recommendation` 데이터를 기반으로  
+  - 기본은 **규칙 엔진**(포지션/스타일/상대 전술 매칭)  
+  - 보강은 **Hugging Face Inference API (GPT-2 베이스)**로 코멘트/전술 설명 생성 → 규칙 결과를 **요약·보완**  
+- 스키마: `player / formation / formation_position / rival_club / region / player_analysis / player_tactic_recommendation`  
 👉 레포: **https://github.com/ghtjdgg-hh/hosungfc**
 
 ---
