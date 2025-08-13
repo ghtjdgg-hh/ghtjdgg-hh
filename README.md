@@ -43,27 +43,28 @@
 ### 1) KD손해보험 관리자 백엔드 (Spring Legacy · Oracle)
 - 고객·피보험자·계약·공지 **CRUD**, 검색/페이징, 대시보드 위젯  
 - 계약 등록: 고객 팝업 → 피보험자 자동 로딩 → 상품/기간/상태 저장  
-- Spring MVC + MyBatis, Spring Security(로그인/권한), HikariCP  
+- Spring MVC + MyBatis, Spring Security(로그인/권한), HikariCP 적용  
 - Oracle 스키마: `customer / insured_person / contract / notice` (시퀀스+트리거)  
 👉 레포: **https://github.com/ghtjdgg-hh/kd-insurance-admin**
 
 ---
 
+### 2) 축구팀 관리자 시스템 (JSP · Java · Oracle · Kakao Map )
 - 선수 관리(등록/검색/페이징)와 **포메이션 드래그&드롭** 배치/저장/수정  
-- **Kakao Map 라이벌 분석**: 로고 마커·지역 필터·모달(전적/전술/예상 승률)  
-- **AI 전술 추천(🤗 Hugging Face + 규칙 엔진)**: `player_analysis`(스타일/장단점/추천 전술) + `player_tactic_recommendation` 데이터를 기반으로  
-  - 기본은 **규칙 엔진**(포지션/스타일/상대 전술 매칭)  
-  - 보강은 **Hugging Face Inference API (GPT-2 베이스)**로 코멘트/전술 설명 생성 → 규칙 결과를 **요약·보완**  
-- 스키마: `player / formation / formation_position / rival_club / region / player_analysis / player_tactic_recommendation`  
+- **Kakao Map 라이벌 분석**: 로고 마커 · 지역 필터 · 모달(전적/전술/예상 승률)  
+- **AI 전술 추천(🤗 Hugging Face + 규칙 엔진)**: `player_analysis` + `player_tactic_recommendation` 기반  
+- 기본은 규칙 엔진(포지션/스타일/상대 전술 매칭), HF Inference API(GPT-2)로 **코멘트 요약·보완**  
 👉 레포: **https://github.com/ghtjdgg-hh/hosungfc**
 
 ---
 
-### 3) 따릉이(서울시 공공자전거) 클론코딩
-- 실서비스 레이아웃 **픽셀 단위** 재현, Bootstrap Grid  
-- 상단 3개 버튼, 아코디언, 헤더/푸터, **WA 인증 아이콘** 구성  
+### 3) 따릉이(서울시 공공자전거) 클론코딩 (HTML/CSS · Bootstrap · Vanilla JS)
+- 실서비스 레이아웃 **픽셀 단위** 재현, Bootstrap Grid 구성  
+- 상단 3개 버튼, 아코디언, 헤더/푸터, **WA 인증 아이콘** 구현  
 - 시맨틱 HTML, 포커스 이동/명도 대비 등 **웹 접근성** 고려  
+- 페이지: 메인 · 이용안내(아코디언) · 안전사항(헬멧/교통법규/연령/야간/사고)  
 👉 레포: **https://github.com/ghtjdgg-hh/ddareungi-clone**
+
 
 ---
 
