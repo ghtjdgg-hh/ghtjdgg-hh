@@ -94,11 +94,8 @@
 
 ---
 
-## 📊 GitHub 스탯 (선택)
+## 📊 GitHub 스탯
 <p align="left">
   <img height="160" src="https://github-readme-stats.vercel.app/api?username=ghtjdgg-hh&show_icons=true" alt="stats"/>
   <img height="160" src="https://streak-stats.demolab.com/?user=ghtjdgg-hh" alt="streak"/>
 </p>
-
-<!-- 핀(Pin) 팁: 프로필에서 상단 'Customize your pins'를 눌러 위 3개 레포를 Pin하면,
-     방문자가 README + 레포 타일을 한 번에 볼 수 있어요. -->
