@@ -2,11 +2,14 @@
   <img src="https://capsule-render.vercel.app/api?type=rounded&height=180&color=0:2D4470,100:00C896&text=HAN%20HOSUNG&fontSize=40&fontColor=ffffff&desc=성실함과%20끈기로%20성장하는%20풀스택%20개발자&descAlignY=70&animation=scaleIn" alt="header"/>
 </p>
 
-<h2 align="center">안녕하세요 👋 성실함과 끈기로 성장하는 개발자 한호성입니다</h2>
+<h2 align="center">👋 반갑습니다, 끊임없이 성장하는 개발자 <span style="color:#2D4470;">한호성</span>입니다</h2>
+
 <p align="center">
-  <b>Java & Spring 백엔드</b> · <b>JSP · Oracle 풀스택</b> <br/>
-  물류·전기 현장에서 배운 근성과 문제해결 경험을, <b>시스템과 자동화</b>로 바꾸고 있습니다.
+  <i><b>Java & Spring 백엔드</b></i> · <i><b>JSP · Oracle 풀스택</b></i> <br/>
+  물류·전기 현장에서 체득한 <b>끈기와 문제 해결력</b>을 바탕으로,<br/>
+  비효율을 <b style="color:#00C896;">시스템과 자동화</b>로 바꾸는 일을 하고 있습니다.
 </p>
+
 
 <!-- 빠른 링크 -->
 <p align="center">
