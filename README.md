@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:2D4470,100:0052D4&text=Han%20Hosung&fontSize=44&fontColor=ffffff&animation=fadeIn&desc=Java%20%7C%20Spring%20Back-end%20%26%20Fullstack%20Developer&descAlignY=75&descAlign=50" alt="header"/>
+  <img src="https://capsule-render.vercel.app/api?type=rounded&height=180&color=0:2D4470,100:00C896&text=Han%20Hosung&fontSize=40&fontColor=ffffff&desc=성실함과%20끈기로%20성장하는%20풀스택%20개발자&descAlignY=70&animation=scaleIn" alt="header"/>
 </p>
 
 <h2 align="center">안녕하세요 👋 성실함과 끈기로 성장하는 개발자 한호성입니다</h2>
