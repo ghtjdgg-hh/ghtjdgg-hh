@@ -1,6 +1,5 @@
-<!-- 헤더 배너 -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2D4470,100:00C896&height=220&section=header&text=Han%20Hosung&fontSize=44&fontColor=ffffff&animation=twinkling" alt="header" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:2D4470,100:00C896&height=220&section=header&text=Han%20Hosung&fontSize=44&fontColor=ffffff&animation=fadeIn&desc=Java%20%26%20Spring%20Backend%20Developer&descSize=20&descAlignY=70" alt="header" />
 </p>
 
 <h2 align="center">안녕하세요 👋 성실함과 끈기로 성장하는 개발자 한호성입니다</h2>
